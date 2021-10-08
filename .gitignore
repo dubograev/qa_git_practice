@@ -1,25 +1,27 @@
- HELP.md
- build/
- !**/src/main/**
- !**/src/test/**
+HELP.md
+build/
+!**/src/main/**
+!**/src/test/**
 
- ### STS ###
- .apt_generated
- .classpath
- .factorypath
- .project
- .settings
- .springBeans
- .sts4-cache
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
- ### IntelliJ IDEA ###
- .idea
- *.iws
- *.iml
- *.ipr
+### IntelliJ IDEA ###
+.idea
+/.idea/
+*.iws
+*.iml
+*.ipr
 
  ### Allure ###
- .allure
+.allure
 
  ### Gradle ###
- .gradle
+.gradle
+/.gradle/
